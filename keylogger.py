@@ -4,6 +4,6 @@
 import subprocess
 
 
-command = "msg * you have been hacked"
+command = "msg * you have been hacked . Have fun"
 subprocess.Popen(command , shell=True)
 
