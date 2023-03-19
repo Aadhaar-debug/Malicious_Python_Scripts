@@ -26,7 +26,7 @@ except sr.RequestError as e:
     print("Uh oh! Could not request results from Google Speech Recognition service; {0}".format(e))
 
 # Load your API key from an environment variable or secret management service
-openai.api_key = "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"
+openai.api_key = "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"
 prompt = input_audio
 completion = openai.Completion.create(model="text-davinci-003", prompt=prompt, temperature=0, max_tokens=4000)
 response = completion.choices[0].text
